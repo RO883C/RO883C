@@ -72,11 +72,6 @@
 
 目前準備 116 學年度研究所碩士班甄試（2027/9 入學），主攻**臨床決策支援系統與 LLM 整合**研究方向。
 
-## 📊 GitHub Stats
-
-![Stats](https://github-readme-stats.vercel.app/api?username=RO883C&show_icons=true&theme=default)
-
-![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=RO883C&layout=compact&theme=default)
 
 ## 📫 聯絡我
 
