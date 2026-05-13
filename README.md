@@ -16,7 +16,7 @@
 
 - 45 項體檢指標即時判讀
 - KDIGO 2024 慢性腎臟病分期
-- Gemini 多模態 AI（OCR + 翻譯）
+- 多模態 AI 影像理解（OCR + 翻譯）
 - 「先規則後 LLM」隱私架構
 
 🌐 [clincalc.ro883c.workers.dev](https://clincalc.ro883c.workers.dev)
@@ -38,11 +38,12 @@
 </tr>
 </table>
 
-### ⇄ [clinconvert](https://clinconvert.pages.dev/) ─ FHIR 互通工具
+### ⇄ [clinconvert](https://clinconvert.pages.dev/) ─ FHIR 互通研究 POC
 
-**XLS / CSV / JSON → FHIR R4 轉換器**：對接衛福部 2026 醫學中心 FHIR 電子病歷互通政策。Adapter pattern 設計、瀏覽器本地處理（檔案不上傳）、支援 Patient / Encounter / Observation 三種 FHIR R4 resource、含 LOINC 編碼。Clin- 系列第三件作品，給 ExClinCalc 加 FHIR 互通延伸。
+**XLS / CSV / JSON → FHIR R4 batch 轉換工具**：研究型 proof-of-concept，聚焦「Excel 資料 → FHIR Bundle」這個 pre-step。Adapter pattern、Web Worker Pool 並行、結構驗證、PWA 離線、瀏覽器本地處理（檔案不上傳）。Clin- 系列第三件作品，作為 FHIR 互通議題的工程展示與研究探索（**非診所即用工具**）。
 
 → 試用：[clinconvert.pages.dev](https://clinconvert.pages.dev/)
+→ 相關專案：[療心智能 Taiwan-Health-MCP](https://github.com/healthymind-tech/Taiwan-Health-MCP)（148 stars，FHIR + MCP for LLMs，與 clinconvert 互補）
 
 ### 💰 [Kaizei](https://jiayuselfweb.pages.dev/projects/kaizei) ─ 跨領域作品
 
